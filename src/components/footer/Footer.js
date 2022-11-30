@@ -21,6 +21,10 @@ function Footer() {
                   One of the best animal shelter places in India. We’re
                   recognized by the government. Please take a pledge to take
                   care of these lovely pets !
+
+
+
+                  
                 </p>
                 <button
                   className="buttonF"
