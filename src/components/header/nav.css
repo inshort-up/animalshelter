@@ -1,0 +1,137 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 75px;
+    /* gap: 286px; */
+    /* position: absolute; */
+    /* width: 1177px; */
+    height: 76px;
+    /* left: 80px; */
+    top: 32px;
+
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    margin-left: 3.5rem;
+    /* width: 350px; */
+    height: 76px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.logoName {
+    margin-left: 5px;
+    width: 254px;
+    height: 24px;
+    font-style: #000000;
+    font-weight: bold;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    /* width: 229px; */
+    height: 36px;
+
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+
+}
+
+
+.social {
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    width: 120px;
+    height: 24px;
+    font-size: 4rem;
+}
+
+.homec {
+    font-family: 'Roboto';
+    bottom: 0rem;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+    text-decoration-line: underline;
+}
+
+.homecu {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+}
+
+.homenav {
+    margin: -19px;
+}
+
+@media screen and (max-width:600px) {
+    .social {
+        display: none;
+    }
+
+    .logo {
+        margin: 0px;
+
+        right: 1.5rem;
+        top: 0px;
+    }
+
+    .logoName {
+        font-size: 1rem;
+        top: 1ch;
+
+    }
+
+    .nav {
+        padding: 0px;
+        width: 344px;
+        height: 56px;
+        top: 0px;
+
+    }
+
+    .logo {
+        display: inline;
+        top: 7px;
+    }
+    .nav1{
+        background: #FFFFFF;
+    }
+    .logo img{
+        width: 10px;       
+left: 20px;
+
+    }
+    .logoName{
+        position: absolute;
+width: 108px;
+height: 10px;
+left: 50px;
+top: 18px;
+font-size: 10px;
+    }
+    .navbar{
+        right: 8px;
+        bottom: 8px;
+    }
+}

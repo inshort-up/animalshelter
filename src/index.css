@@ -1,0 +1,91 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.app {
+    background-color: #EBF9FF;
+    
+
+}
+
+.nav1 {
+    margin-bottom: 40px;
+}
+
+.mainSectionApp {
+    margin-top: 20px;
+    padding: 70px;
+}
+
+.mainSectionApp2 {
+    margin-top: 60px;
+    margin-bottom: 90px;
+}
+
+.formcol {
+    background-color: #EBF9FF;
+}
+
+.formh5 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0.5px;
+}
+
+.headim {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 1rem;
+}
+
+.required {
+    color: red;
+}
+
+.btnf {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    background-color: #FF6584;
+    border-radius: 6px;
+}
+
+@media screen and (min-width: 600px){
+    .app {
+        background-color: #EBF9FF;
+        
+    }
+    
+}
+
+@media screen and (max-width: 460px){
+    .app {
+
+        background-color: #EBF9FF;
+        
+    }
+    .mainSectionApp{
+        padding: 0px;
+    }
+    .mainSectionApp2{
+        margin-top: 139px;
+        
+    }
+}
